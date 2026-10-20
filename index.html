@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelGo - Khám phá thế giới</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- CSS riêng -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">TravelGo</a>
+
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarMenu"
+                    aria-controls="navbarMenu"
+                    aria-expanded="false"
+                    aria-label="Mở menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Dịch vụ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner / Hero -->
+    <section id="home" class="hero-section">
+        <div class="container text-center text-white">
+            <h1 class="display-3 fw-bold">
+                Khám Phá Thế Giới Cùng TravelGo
+            </h1>
+
+            <p class="lead mt-3">
+                Hành trình tuyệt vời bắt đầu từ những trải nghiệm đáng nhớ.
+            </p>
+
+            <a href="#features" class="btn btn-primary btn-lg mt-3">
+                Khám phá ngay
+            </a>
+        </div>
+    </section>
+
+    <!-- Giới thiệu -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-md-6">
+                    <img
+                        src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=80"
+                        class="img-fluid rounded shadow"
+                        alt="Khung cảnh núi non hùng vĩ">
+                </div>
+
+                <div class="col-md-6">
+                    <h2 class="fw-bold">Về TravelGo</h2>
+
+                    <p class="text-muted mt-3">
+                        TravelGo giúp bạn khám phá những điểm đến tuyệt đẹp,
+                        trải nghiệm văn hóa độc đáo và tận hưởng kỳ nghỉ
+                        theo cách riêng của mình.
+                    </p>
+
+                    <p>
+                        Chúng tôi mang đến những hành trình thú vị,
+                        dịch vụ tận tâm và nhiều lựa chọn phù hợp với
+                        nhu cầu của mỗi khách hàng.
+                    </p>
+
+                    <a href="#contact" class="btn btn-outline-primary">
+                        Tìm hiểu thêm
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Danh sách tính năng -->
+    <section id="features" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Tại Sao Chọn TravelGo?</h2>
+                <p class="text-muted">
+                    Những giá trị giúp chuyến đi của bạn trọn vẹn hơn.
+                </p>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="feature-card text-center p-4 h-100">
+                        <div class="feature-icon">🌍</div>
+                        <h5 class="fw-bold mt-3">Điểm đến đa dạng</h5>
+                        <p class="text-muted">
+                            Khám phá nhiều địa điểm hấp dẫn trong và ngoài nước.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="feature-card text-center p-4 h-100">
+                        <div class="feature-icon">💰</div>
+                        <h5 class="fw-bold mt-3">Chi phí hợp lý</h5>
+                        <p class="text-muted">
+                            Nhiều lựa chọn phù hợp với ngân sách của bạn.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="feature-card text-center p-4 h-100">
+                        <div class="feature-icon">🛎️</div>
+                        <h5 class="fw-bold mt-3">Dịch vụ tận tâm</h5>
+                        <p class="text-muted">
+                            Hỗ trợ khách hàng trong suốt hành trình.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="feature-card text-center p-4 h-100">
+                        <div class="feature-icon">📸</div>
+                        <h5 class="fw-bold mt-3">Trải nghiệm đáng nhớ</h5>
+                        <p class="text-muted">
+                            Lưu giữ những khoảnh khắc đẹp trong mỗi chuyến đi.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="contact" class="cta-section py-5 text-center text-white">
+        <div class="container">
+            <h2 class="fw-bold">Sẵn Sàng Cho Chuyến Đi Tiếp Theo?</h2>
+            <p class="lead mt-3">
+                Bắt đầu lên kế hoạch cho hành trình của bạn ngay hôm nay.
+            </p>
+
+            <a href="mailto:contact@travelgo.example"
+               class="btn btn-light btn-lg mt-3">
+                Liên hệ ngay
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p class="mb-0">
+                © 2026 TravelGo. Thiết kế bởi học viên.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
